@@ -1,10 +1,33 @@
+.logo__container{
+    width:100%;
+}
 .logo{
-    transition:all .3s ease-in;
-    font-family: "Poppins-light";
-    color:#EAE0D5;
+    position: relative;
+    min-width: 15em;
+    max-width:50vw;
+}
+@media only screen and (max-width: 735px){
+    .logo{
+        max-width: 100%;
+    }
 }
 .logo:hover{
-    color:hsl(31, 33%, 98%);
+
+}
+
+.nav-toggle:checked ~ .nav-bg{
+    transform: scale(80);
+    
+    
+}
+.nav-bg{
+    height: 6rem;
+    width:6rem;
+    border-radius: 50%;
+    position:fixed;
+    top:6.5rem;
+    right: 6.5rem;
+    transition: all 1s;
 }
 .navigation__link{
     transition:all .3s ease-in;

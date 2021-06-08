@@ -2,3 +2,8 @@
 .footer__headline{
     color:#EAE0D5;
 }
+.footer__wrapper{
+    display:flex;
+    justify-content: space-evenly;
+    min-width: 15em;
+}
