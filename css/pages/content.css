@@ -3,6 +3,7 @@
     display:grid;
     place-content: center;
     height:100%;
+    padding: var(--main-padding);
 }
 /*grid is used here to place child center*/
 .content__container{
@@ -32,6 +33,9 @@
 
 .content__container--copy{
     height:100%;
+}
+.content__container--image{
+    max-width: 30vw;
 }
 .content__container--inner{
     display:flex;
