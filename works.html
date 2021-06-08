@@ -7,13 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="favicon" href='./img/favicon.ico' >
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
     <!-- <link rel="stylesheet" href="./css/style.main.css" /> -->
-    <link rel="stylesheet" href="./css/style.production.css" />
+    <!-- <link rel="stylesheet" href="./css/style.production.css" /> -->
 </head>
 <body>
     <header>
-        <a href="/">
-            <h1 class="logo">Brian Thomas</h1>
+        <a class="logo__container" href="/">
+            <!-- <h1 class="logo">Brian Thomas</h1> -->
+            <img class="logo"  src="./img/logo-text.jpg" alt="Logo text spelling Brian">
         </a>
         
         <nav class="navigation">
@@ -104,11 +106,11 @@
         </section>
     </main>
     <footer class="footer">
-        <div>
+        <div class="footer__container">
             <!-- contact copy -->
             <p class="footer__headline">Find me on</p>
             <!-- contact icons container -->
-            <div>
+            <div class="footer__wrapper">
                 <!-- icons -->
                 <a href="https://github.com/joyreacher" target="_blank" ><img role="navigation" src="./img/icon__github.svg" alt="Github profile" ></a>
                 <a href="https://www.linkedin.com/in/joyreacher/" target="_blank"><img src="./img/icon__linkin.svg" alt="Linkedin profile"></a>
