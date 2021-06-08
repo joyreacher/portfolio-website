@@ -1,0 +1,23 @@
+
+
+.btn__contact--submit{
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    padding: .3em;
+    border-color: #EAE0D5;
+    background-color: #EAE0D5;
+    transition:all .3s ease-in;
+}
+/*? default button interaction styles */
+.btn__contact--submit:hover{
+    box-shadow: -6px 7px 29px 1px rgba(0,0,0,0.20);
+    cursor:pointer;
+    color:hsl(31, 13%, 60%);
+}
+
+.btn__contact--submit:active{
+    background-color:rgba(34, 51, 59, .3);
+    color:hsl(31, 33%, 98%);
+}

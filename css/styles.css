@@ -1,0 +1,22 @@
+
+@import './variables/colors.css';
+@import './variables/base.css';
+@import './default/normalized.css';
+@import './default/typography.css';
+@import './default/default.css';
+
+@import './animations/keyframes.css';
+@import './animations/light-switch.css';
+@import './animations/cloud.css';
+
+
+
+@import './pages/about.css';
+@import './pages/works.css';
+@import './pages/content.css';
+
+@import './componets/btn.css';
+@import './componets/navigation.css';
+@import './componets/cta.css';
+@import './componets/footer.css';
+@import './componets/table.css';

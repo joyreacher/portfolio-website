@@ -1,0 +1,58 @@
+/*grid is used here to place child center*/
+.content__wrapper{
+    display:grid;
+    place-content: center;
+    height:100%;
+}
+/*grid is used here to place child center*/
+.content__container{
+    display:grid;
+    grid-template-columns: .5fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5em;
+    row-gap:2em;
+    align-items: center;
+}
+@media only screen and (max-width: 768px){
+    .content__container{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 928px){
+    .content__container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+.content__container--works{
+    display:block;
+}
+
+
+.content__container--copy{
+    height:100%;
+}
+.content__container--inner{
+    display:flex;
+    flex-direction: column;
+    padding:0em 0em ;
+}
+@media only screen and ( max-width: 415px) {
+    .content__container--inner{
+        padding:0em 1.5em ;
+    }
+}
+.content__container--inner a{
+    margin-top:2em;
+}
+
+.content__heading--large{
+    font-family: "Poppins-light";
+    font-size: 4.5rem;
+}
+@media only screen and ( max-width: 1024px) {
+    .content__heading--large{
+        font-size: 3rem;
+    }
+}

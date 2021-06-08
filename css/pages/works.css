@@ -1,0 +1,47 @@
+/*
+    PROJECTS PAGE STYLES
+*/
+.project__container{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap:3em;
+    row-gap:4em;
+}
+@media only screen and (max-width: 854px){
+    .project__container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap:3em;
+        row-gap:4em;
+    }
+}
+@media only screen and (max-width: 590px){
+    .project__container{
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        column-gap:3em;
+        row-gap:4em;
+    }
+}
+.project__card{
+    box-shadow: 3px 3px 3em hsla(31, 33%, 68%, .7), -.5em 1.5em 1.5em hsla(30, 11%, 4%, .134);
+}
+.project__card--image{
+    max-width:100%;
+}
+.project__copy{
+    padding:1em;
+}
+
+.project__card:nth-child(odd){
+    background-color: hsla(199, 27%, 18%, .9);
+    color:#EAE0D5;
+}
+.project__card:nth-child(odd) a{
+    color:#EAE0D5;
+}
+.project__card:nth-child(even){
+    background-color: hsla(199, 27%, 70%, .9);
+    color:#0A0908;
+}

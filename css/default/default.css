@@ -1,0 +1,94 @@
+
+*{
+    box-sizing: border-box;
+}
+/*? element styles*/
+body{
+    background-color: var(--body-bg);
+    color: var(--color-dark-1);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1rem;
+}
+
+header{
+    background-color: var(--header-bg);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:var(--header-padding);
+}
+
+nav ul{
+    position: relative;
+    z-index: 200;
+    display:flex;
+    justify-content: space-between;
+    
+}
+nav ul > li{
+    padding-left:1.5em;
+}
+footer{
+    text-align:center;
+    display:grid;
+    place-content: center;
+    position: relative;
+    margin-top: 100px;
+    clear: both;
+    overflow: hidden;
+    
+    background-color: var(--color-dark-2);
+}
+footer div{
+    padding:2em;
+}
+footer > div >p {
+    margin:1.2em 0em;
+}
+main{
+    min-height:50vh;
+    margin: 5em auto;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    /* content width */
+    padding: var(--main-padding);
+}
+li{
+    list-style: none;
+}
+table{
+    margin:0 auto;
+    text-align:center;
+}
+
+th{
+    font-size:1.5rem;
+    padding:1em 2em;
+}
+td{   
+    padding:0em 2em;
+    
+}
+@media only screen and (max-width: 854px){ 
+    td{   
+        display:none;
+    }
+}
+
+/*? base styles for links */
+a{
+    /* keep the contact cta bright */
+    color:var(--color-dark-1);
+    text-decoration: none;
+    transition: color .3s ease;
+}
+
+/*? text styles */
+h1{
+    font-size:2rem;
+    font-weight: 700;
+}
+h2{
+    font-size: 1.5rem;
+}

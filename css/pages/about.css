@@ -1,0 +1,38 @@
+.main--about{
+    min-height: 70vh;
+    margin-bottom:-110px;
+}
+
+#foreground--buildings{
+    min-width: 100%;
+}
+/* @media only screen and (max-width: 854px){ 
+    .main--about{
+        min-height: 20vh;
+    }
+}
+@media only screen and (max-width: 596px){ 
+    .main--about{
+        max-height: 10vh;
+    }
+}
+@media only screen and (max-width: 415px){ 
+    .main--about{
+        max-height: 10vh;
+    }
+} */
+.main--about{
+    padding:0em;
+}
+.illustration{
+    /* margin-top:-4em; */
+    /* overflow: hidden; */
+    display: flex;
+    /* z-index: -1; */
+    flex-direction: column;
+    align-items:center;
+}
+
+#mountains{
+    min-width:100%;
+}

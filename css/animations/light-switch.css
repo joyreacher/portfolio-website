@@ -1,0 +1,36 @@
+#light-switch-1{
+    /* animation: light-switch 2s infinite 20s linear alternate; */
+    animation-duration: 8.5s;
+    animation-name: light-switch-1;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-end;
+}
+#light-switch-2{
+    /* animation: light-switch 2s infinite 20s linear alternate; */
+    animation-duration: 7.5s;
+    animation-name: light-switch-2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-end;
+    animation-delay: 4s;
+}
+#light-switch-3{
+    /* animation: light-switch 2s infinite 20s linear alternate; */
+    animation-duration: 10s;
+    animation-name: light-switch-3;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-end;
+    animation-delay: 10s;
+}
+
+#light-switch-4{
+    /* animation: light-switch 2s infinite 20s linear alternate; */
+    animation-duration: 3.7s;
+    animation-name: light-switch-4;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: step-end;
+    animation-delay: 10s;
+}

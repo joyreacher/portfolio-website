@@ -1,0 +1,23 @@
+.logo{
+    transition:all .3s ease-in;
+    font-family: "Poppins-light";
+    color:#EAE0D5;
+}
+.logo:hover{
+    color:hsl(31, 33%, 98%);
+}
+.navigation__link{
+    transition:all .3s ease-in;
+    color:#EAE0D5;
+}
+.navigation__link:hover{
+    color:hsl(31, 33%, 68%);
+}
+.navigation__link:active{
+    color:hsl(31, 33%, 98%);
+}
+@media only screen and (max-width: 735px){ 
+    .navigation{
+        display:none;
+    }
+}
