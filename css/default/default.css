@@ -29,7 +29,7 @@ header{
 nav ul{
     position: relative;
     z-index: 200;
-    display:flex;
+    /* display:flex; */
     
 }
 nav ul > li{
