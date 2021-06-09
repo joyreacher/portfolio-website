@@ -17,6 +17,7 @@ header{
     padding:var(--header-padding);
     overflow: hidden;
     justify-content: space-between;
+    min-height:6em;
 }
 @media only screen and (max-width: 414px){
     header{
@@ -59,9 +60,9 @@ footer > div >p {
 }
 main{
     background-image: url('../../img/body-bg-texture.jpg');
-    background-size: contain;
+    background-size: cover;
     background-attachment: fixed;
-    background-position: bottom right ;
+    background-position: top right ;
     background-repeat:no-repeat;
     min-height:100vh;
     display:grid;
