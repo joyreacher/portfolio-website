@@ -8,9 +8,9 @@
     transition:all .3s ease-in;
     color:#EAE0D5;
 }
-/* .navigation__link:hover{
-    color:hsl(31, 33%, 68%);
-} */
+.navigation__link:hover{
+    color:var(--nav-hover);
+}
 .navigation__link:active{
     color:hsl(31, 33%, 98%);
 }
@@ -22,7 +22,7 @@
 }
 
 
-@media only screen and (max-width: 845px){ 
+@media only screen and (max-width: 910px){ 
     
     /*Hamburger top and bottom */
     .navigation__btn{
@@ -136,7 +136,7 @@
     }
     .navigation__link:hover,
     .navigation__link:active{
-        color:hsl(31, 33%, 68%);
+        color:var(--nav-hover);
         background-size: 380%;
         background-position: -2%;
     }
