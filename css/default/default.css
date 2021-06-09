@@ -18,6 +18,11 @@ header{
     overflow: hidden;
     justify-content: space-between;
 }
+@media only screen and (max-width: 414px){
+    header{
+        padding: var(--mobile-padding);
+    }
+}
 @media only screen and (max-width:900px) and (orientation: landscape){
     header{
         max-height: 30vh;    

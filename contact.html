@@ -14,26 +14,39 @@
 <body>
     <header>
         <a class="logo__container" href="/">
-            <!-- <h1 class="logo">Brian Thomas</h1> -->
-            <img class="logo"  src="./img/logo-text.jpg" alt="Logo text spelling Brian">
+            <h1 class="logo">Brian Thomas</h1>
+            <!-- <img class="logo"  src="./img/logo.jpg" alt="Logo text spelling Brian"> -->
         </a>
         
-        <nav class="navigation">
-            <ul role="menubar">
-                <li role="presentation">
-                    <a class="navigation__link" role="menuitem" href="/">Home</a>
-                </li>
-                <li>
-                    <a class="navigation__link" role="menuitem" href="/works.html">Works</a>
-                </li>
-                <li>
-                    <a class="navigation__link" role="menuitem" href="/about.html">About me</a>
-                </li>
-                <li>
-                    <a class="navigation__link" role="menuitem" href="/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        
+        <div class="navigation">
+        
+            <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+            
+            <label for="nav-toggle" class="navigation__btn">
+                <span class="navigation__btn--middle">&nbsp;</span>
+            </label>
+            
+            <div class="navigation-bg">&nbsp;</div>
+
+            <nav class="navigation__container">
+                <ul role="menubar" class="navigation__list">
+                    <li role="presentation" class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/works.html">Works</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/about.html">About me</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
     </header>
     <main>
         <section class="content__wrapper">

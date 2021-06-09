@@ -4,6 +4,7 @@
     --color-dark-2:#22333B;
     --color-dark-3:#0b0a09;
     --color-white: #EAE0D5;
+    --color-white--darker: hsl(31, 13%, 68%);
     
     --body-bg:hsla(31,33%, 88%, .4);;
     --header-bg: hsla(199, 17%, 16%, 1);;

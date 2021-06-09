@@ -5,6 +5,11 @@
     height:100%;
     padding: var(--main-padding);
 }
+@media only screen and (max-width: 414px){
+    .content__wrapper{
+        padding: var(--mobile-padding);
+    }
+}
 /*grid is used here to place child center*/
 .content__container{
     display:grid;
