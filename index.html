@@ -5,7 +5,7 @@
     <title>Brian Thomas Portfolio | Home</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" href='./img/favicon.ico' >
+    <link rel="icon" href='./img/favicon.ico' >
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
     <!-- <link rel="stylesheet" href="./css/style.main.css" /> -->
@@ -14,27 +14,39 @@
 <body>
     <header>
         <a class="logo__container" href="/">
-            <!-- <h1 class="logo">Brian Thomas</h1> -->
-            <img class="logo"  src="./img/logo-text.jpg" alt="Logo text spelling Brian">
+            <h1 class="logo">Brian Thomas</h1>
+            <!-- <img class="logo"  src="./img/logo.jpg" alt="Logo text spelling Brian"> -->
         </a>
         
-        <div class="nav-bg">&nbsp;</div>
-        <nav class="navigation">
-            <ul role="menubar">
-                <li role="presentation">
-                    <a class="navigation__link" role="menuitem" href="/">Home</a>
-                </li>
-                <li>
-                    <a class="navigation__link" role="menuitem" href="/works.html">Works</a>
-                </li>
-                <li>
-                    <a class="navigation__link" role="menuitem" href="/about.html">About me</a>
-                </li>
-                <li>
-                    <a class="navigation__link" role="menuitem" href="/contact.html">Contact</a>
-                </li>
-            </ul>
-        </nav>
+        
+        <div class="navigation">
+        
+            <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+            
+            <label for="nav-toggle" class="navigation__btn">
+                <span class="navigation__btn--middle">&nbsp;</span>
+            </label>
+            
+            <div class="navigation-bg">&nbsp;</div>
+
+            <nav class="navigation__container">
+                <ul role="menubar" class="navigation__list">
+                    <li role="presentation" class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/works.html">Works</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/about.html">About me</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" role="menuitem" href="/contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
     </header>
     <main>
         <section class="content__wrapper">
@@ -43,7 +55,7 @@
                 <!-- conteent sections -->
                 <div class="content__container--image">
                     <!-- <img src="https://via.placeholder.com/350x300" alt="This is just a placeeholder"> -->
-                    <img style="opacity: .75;" src="./img/cover-photo.png" alt="This is just a placeeholder">
+                    <img style="opacity: .75;" src="./img/cover-photo-main.jpg" alt="This is just a placeeholder">
                 </div>
                 
                 <div class="content__container--copy">
@@ -67,7 +79,7 @@
             <!-- contact icons container -->
             <div class="footer__wrapper">
                 <!-- icons -->
-                <a href="https://github.com/joyreacher" target="_blank" ><img role="navigation" src="./img/icon__github.svg" alt="Github profile" ></a>
+                <a href="https://github.com/joyreacher" target="_blank" ><img src="./img/icon__github.svg" alt="Github profile" ></a>
                 <a href="https://www.linkedin.com/in/joyreacher/" target="_blank"><img src="./img/icon__linkin.svg" alt="Linkedin profile"></a>
                 <a href="https://twitter.com/Brian37626646" target="_blank"><img src="./img/icon__twitter.svg" alt="Twitter profile"></a>
             </div>

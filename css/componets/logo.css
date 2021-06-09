@@ -1,0 +1,17 @@
+.logo__container{
+    /* width:100%; */
+    max-height: inherit;
+}
+.logo{
+    /* position: relative; */
+    /* min-width: 15em; */
+    /* max-width:50vw; */
+}
+@media only screen and (max-width: 735px){
+    .logo{
+        /* max-width: 100%; */
+    }
+}
+.logo:hover{
+
+}

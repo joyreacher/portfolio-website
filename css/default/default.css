@@ -14,10 +14,14 @@ header{
     background-color: var(--header-bg);
     display:flex;
     align-items: center;
-    /* padding:var(--header-padding); */
+    padding:var(--header-padding);
     overflow: hidden;
-    max-height: 15vh;
     justify-content: space-between;
+}
+@media only screen and (max-width: 414px){
+    header{
+        padding: var(--mobile-padding);
+    }
 }
 @media only screen and (max-width:900px) and (orientation: landscape){
     header{
@@ -29,8 +33,6 @@ header{
 nav ul{
     position: relative;
     z-index: 200;
-    display:flex;
-    
 }
 nav ul > li{
     /* padding-left:5.5em; */
@@ -56,7 +58,7 @@ footer > div >p {
     margin:1.2em 0em;
 }
 main{
-    background-image: url('../../img/body-bg.PNG');
+    background-image: url('../../img/body-bg-texture.jpg');
     background-size: contain;
     background-attachment: fixed;
     background-position: bottom right ;
