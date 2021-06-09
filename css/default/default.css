@@ -37,7 +37,8 @@ nav ul{
 }
 nav ul > li{
     /* padding-left:5.5em; */
-    white-space: break-spaces;
+    white-space: pre-line;
+    margin-left: 1em;
 }
 header, footer{
     box-shadow: 3px 3px 3em var(--color-dark-2), -3px -3px 3em var(--color-dark-2);
