@@ -15,8 +15,8 @@ header{
     display:flex;
     align-items: center;
     /* padding:var(--header-padding); */
-    overflow: hidden;
-    max-height: 15vh;
+    /* overflow: hidden; */
+    /* max-height: 15vh; */
     justify-content: space-between;
 }
 @media only screen and (max-width:900px) and (orientation: landscape){
