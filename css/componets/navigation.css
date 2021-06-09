@@ -15,21 +15,37 @@
 
 }
 
-.nav-toggle:checked ~ .nav-bg{
-    transform: scale(80);
-    
+.navigation__checkbox{
     
 }
-.nav-bg{
+.navigation__btn{
+    
+}
+.navigation__checkbox{
+    
+}
+.navigation-bg{
     height: 6rem;
     width:6rem;
-    border-radius: 50%;
     position:fixed;
     top:6.5rem;
     right: 6.5rem;
+    background-color: red;
     transition: all 1s;
 }
+.navigation__container{
+    
+}
+.navigation__list{
+    
+}
+.navigation__item{
+    
+}
 .navigation__link{
+    
+}
+/* .navigation__link{
     transition:all .3s ease-in;
     color:#EAE0D5;
 }
@@ -43,4 +59,4 @@
     .navigation{
         display:none;
     }
-}
+} */
