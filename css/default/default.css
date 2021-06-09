@@ -56,7 +56,7 @@ footer > div >p {
     margin:1.2em 0em;
 }
 main{
-    background-image: url('../../img/body-bg.PNG');
+    background-image: url('../../img/body-bg-texture.jpg');
     background-size: contain;
     background-attachment: fixed;
     background-position: bottom right ;
