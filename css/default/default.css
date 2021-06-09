@@ -14,9 +14,8 @@ header{
     background-color: var(--header-bg);
     display:flex;
     align-items: center;
-    /* padding:var(--header-padding); */
-    /* overflow: hidden; */
-    /* max-height: 15vh; */
+    padding:var(--header-padding);
+    overflow: hidden;
     justify-content: space-between;
 }
 @media only screen and (max-width:900px) and (orientation: landscape){
@@ -29,8 +28,6 @@ header{
 nav ul{
     position: relative;
     z-index: 200;
-    /* display:flex; */
-    
 }
 nav ul > li{
     /* padding-left:5.5em; */

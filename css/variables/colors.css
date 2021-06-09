@@ -8,6 +8,8 @@
     --body-bg:hsla(31,33%, 88%, .4);;
     --header-bg: hsla(199, 17%, 16%, 1);;
     
+    --modal:hsla(199, 27%, 18%, .95);
+    
     --link-hover: #E94F37;
     
     --nav-hover: hsl(31, 33%, 68%);;
