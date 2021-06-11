@@ -3,5 +3,5 @@
     color:var(--color-dark-1);
 }
 .cta:hover{
-    color:var(--link-hover);
+    color: var(--link-hover);
 }
