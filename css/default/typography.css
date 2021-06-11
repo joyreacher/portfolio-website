@@ -2,3 +2,32 @@
     font-family: "Poppins-light";
     src: url('../../fonts/Poppins-Light.ttf') format("truetype");
 };
+
+body{
+    font-family: din-1451-lt-pro-engschrift, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+
+    Poppins Regular
+
+    font-family: poppins, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    Poppins Bold Italic
+
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+    Poppins Bold
+
+    font-family: poppins, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
