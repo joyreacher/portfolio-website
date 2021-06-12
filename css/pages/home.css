@@ -1,0 +1,53 @@
+.home__works {
+  display: block;
+}
+
+.home__copy--heading {
+  font-family: poppins, sans-serif;
+  font-size: 4.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home__copy--heading {
+    font-size: 3rem;
+  }
+}
+
+.home__img {
+  max-width: 30%;
+}
+
+.home__cover-photo {
+  max-width: 50%;
+}
+
+.home__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 0em;
+}
+
+.home__inner a {
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 415px) {
+  .home__inner {
+    padding: 0em 1.5em;
+  }
+}
+
+.home__cta {
+  color: var(--color-white);
+  border: none;
+  background-color: var(--btn-bg);
+  border-radius: 8px;
+  padding: .5em;
+  font-size: 1.2rem;
+  margin-top: 2em;
+  align-self: flex-start;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}

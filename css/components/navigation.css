@@ -4,6 +4,15 @@
 
 .navigation__list {
   display: flex;
+  position: relative;
+  z-index: 200;
+  align-items: center;
+}
+
+.navigation__item {
+  /* padding-left:5.5em; */
+  white-space: pre-line;
+  margin-left: 2em;
 }
 
 .navigation__link {
@@ -20,7 +29,7 @@
 }
 
 .navigation__link:active {
-  color: hsl(31, 33%, 98%);
+  color: #fcfaf8;
 }
 
 .navigation-bg {
@@ -31,8 +40,18 @@
   display: none;
 }
 
-.navigation_cv-download {
-  padding: 2em;
+.navigation__cv-download {
+  color: var(--color-white);
+  background-color: var(--btn-bg);
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 1em;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 @media only screen and (max-width: 910px) {
@@ -42,17 +61,19 @@
     color: var(--color-white);
     height: 6rem;
     width: 6rem;
-    top: -0.25rem;
+    top: 1.25em;
     right: 4rem;
     z-index: 600;
   }
+}
 
-  @media only screen and (max-width: 414px) {
-    .navigation__btn {
-      right: 0;
-    }
+@media only screen and (max-width: 910px) and (max-width: 414px) {
+  .navigation__btn {
+    right: 0;
   }
+}
 
+@media only screen and (max-width: 910px) {
   .navigation__btn--middle {
     position: absolute;
     color: var(--color-white);
@@ -60,12 +81,11 @@
     right: 30.5%;
     z-index: 600;
   }
-
   .navigation__btn--middle::after {
     content: "";
     position: absolute;
     top: 2.75rem;
-    right: 0;
+    right: 0%;
     width: 20px;
     height: 3px;
     background-color: var(--color-white);
@@ -76,7 +96,6 @@
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
   }
-
   .navigation__btn::before {
     content: "";
     position: absolute;
@@ -87,8 +106,11 @@
     background-color: var(--link-hover);
     transform-origin: 0 0;
     transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
   }
-
   .navigation__btn::after {
     content: "";
     position: absolute;
@@ -104,7 +126,6 @@
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
   }
-
   .navigation-bg {
     display: block;
     z-index: 100;
@@ -120,7 +141,6 @@
     -ms-transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
     -o-transition: all 1s cubic-bezier(0.86, 0, 0.07, 1);
   }
-
   .navigation__container {
     visibility: hidden;
     opacity: 0;
@@ -136,7 +156,6 @@
     -ms-transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
     -o-transition: all 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   }
-
   .navigation__list {
     display: block;
     position: absolute;
@@ -149,11 +168,9 @@
     -ms-transform: translate(-33%, -30%);
     -o-transform: translate(-33%, -30%);
   }
-
   .navigation__item {
     margin: 1rem 0;
   }
-
   .navigation__link:link,
   .navigation__link:visited {
     display: inline-block;
@@ -169,27 +186,23 @@
     -ms-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
   }
-
   .navigation__link:hover,
   .navigation__link:active {
     color: var(--nav-hover);
     background-size: 380%;
     background-position: -2%;
   }
-
   .navigation__checkbox:checked ~ .navigation-bg {
     position: fixed;
     transform: scale(50);
     height: 100vh;
     width: 100vw;
   }
-
   .navigation__checkbox:checked ~ .navigation__container {
     top: 1.5em;
     visibility: visible;
     opacity: 1;
   }
-
   .navigation__checkbox:checked ~ .navigation__btn .navigation__btn--middle::after {
     right: -1rem;
     width: 20px;
@@ -198,7 +211,6 @@
     transform-origin: 0 0%;
     transition: all 0.3s ease-in-out;
   }
-
   .navigation__checkbox:checked ~ .navigation__btn::before {
     content: "";
     position: absolute;
@@ -214,7 +226,6 @@
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
   }
-
   .navigation__checkbox:checked ~ .navigation__btn::after {
     right: 35%;
     transition: all 0.3s ease-out;

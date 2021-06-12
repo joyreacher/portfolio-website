@@ -8,53 +8,58 @@
     <link rel="icon" href='./img/favicon.ico' >
     <link rel="stylesheet" href="https://use.typekit.net/tpr1nqj.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.main.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <!-- <link rel="stylesheet" href="./css/style.main.css" /> -->
     <!-- <link rel="stylesheet" href="./css/style.production.css" /> -->
 </head>
 <body>
-    <header>
-        <a class="logo__container" href="https://joyreacher.github.io/portfolio-website">
-            <h1 class="logo">Brian Thomas</h1>
-            <!-- <img class="logo"  src="./img/logo.jpg" alt="Logo text spelling Brian"> -->
-        </a>
+  <header class="header">
+    <a class="header__logo" href="/">
+        <!-- <h1 class="logo">Brian Thomas</h1> -->
+        <img class="logo"  src="./img/Logo-3.svg" alt="Logo for Brian Thomas">
         
-        
-        <div class="navigation">
-        
-            <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
-            
-            <label for="nav-toggle" class="navigation__btn">
-                <span class="navigation__btn--middle">&nbsp;</span>
-            </label>
-            
-            <div class="navigation-bg">&nbsp;</div>
-
-            <nav class="navigation__container">
-                <ul role="menubar" class="navigation__list">
-                    <li role="presentation" class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website">Home</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website/works.html">Works</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website/about.html">About me</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
-    </header>
+    </a>
     
-    <main class="main--about">
-        <section class="about--content__wrapper">
-            <h2>More about me.</h2>
-            <div  class="about--content__container">
-                <table class="skills">
+    
+    <div class="header__navigation">
+    
+        <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
+        
+        <label for="nav-toggle" class="navigation__btn">
+            <span class="navigation__btn--middle">&nbsp;</span>
+        </label>
+        
+        <div class="navigation-bg">&nbsp;</div>
+
+        <nav class="navigation__container">
+            <ul role="menubar" class="navigation__list">
+                <li role="presentation" class="navigation__item">
+                    <button class="navigation__cv-download">Download CV</button>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" role="menuitem" href="/works.html">Works</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" role="menuitem" href="/about.html">About me</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" role="menuitem" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+  </header>
+    
+    <main class="main__about">
+        <section class="main__about--wrapper">
+            <h2 class="headline">More about me.</h2>
+            <div  class="main__about--container">
+              <div class="about__copy">
+                I am an experienced teacher’s assistant and professional line cook. I also have an extensive background as a customer service specialist where I learned to become positive, productive and detailed in my work. I am also an experienced sound engineer with a passion for technology and beautiful UIs.
+              </div>
+                <table class="about__skills">
                     <thead>
                         <tr>
                             <th class="table__primary--header" colspan="4">
@@ -64,25 +69,22 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <th>Experience:</th>
+                            <th class="about__skills--row-header">Experience:</th>
                             <td>Graduate from Aims Community College</td>
                             <td>Current student a Career Foundry</td>
                         </tr>
                         <tr>
-                            <th>Languages:</th>
+                            <th class="about__skills--row-header">Languages:</th>
                             <td colspan="2">HTML, CSS, Javascript, PHP</td>
                         </tr>
                         <tr>
-                            <th>Skills:</th>
+                            <th class="about__skills--row-header">Skills:</th>
                             <td>Wordpress</td>
                             <td>React</td>
                         </tr>
                     </tbody>
-                </table>    
-                <div class="cv">
-                    <button class="cv__btn">Download my CV</button>
-                </div>
-                <div class="illustration">
+                </table>                 
+                <div class="about__illustration">
                     <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1225.421 825.633">
                         <g id="Sky">
                             <path id="Sun"
@@ -2110,6 +2112,7 @@
                     </svg>
                       
                 </div>
+              
             </div>
         </section>
     </main>

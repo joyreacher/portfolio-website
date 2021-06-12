@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*? element styles*/
+body {
+  background-color: var(--body-bg);
+  color: var(--color-dark-1);
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 414px) {
+  header {
+    padding: var(--mobile-padding);
+  }
+}
+
+@media only screen and (max-width: 900px) and (orientation: landscape) {
+  header {
+    max-height: 30vh;
+  }
+}
+
+header, footer {
+  box-shadow: 3px 3px 3em var(--color-dark-2), -3px -3px 3em var(--color-dark-2);
+}
+
+footer {
+  text-align: center;
+  display: grid;
+  place-content: center;
+  position: relative;
+  clear: both;
+  overflow: hidden;
+  background-color: var(--color-dark-2);
+}
+
+footer div {
+  padding: 2em;
+}
+
+footer > div > p {
+  margin: 1.2em 0em;
+}
+
+main {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+li {
+  list-style: none;
+}
+
+/*? base styles for links */
+a {
+  /* keep the contact cta bright */
+  color: var(--color-dark-1);
+  text-decoration: none;
+  transition: color .3s ease;
+}
+
+/*? text styles */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+img {
+  max-width: 100%;
+}

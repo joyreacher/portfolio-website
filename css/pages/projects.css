@@ -1,0 +1,51 @@
+.project__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 3em;
+  row-gap: 4em;
+}
+
+@media only screen and (max-width: 854px) {
+  .project__container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 3em;
+    row-gap: 4em;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .project__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    column-gap: 3em;
+    row-gap: 4em;
+  }
+}
+
+.project__card {
+  box-shadow: 3px 3px 3em rgba(200, 174, 146, 0.7), -0.5em 1.5em 1.5em rgba(11, 10, 9, 0.134);
+}
+
+.project__card--image {
+  max-width: 100%;
+}
+
+.project__copy {
+  padding: 1em;
+}
+
+.project__card:nth-child(odd) {
+  background-color: rgba(34, 50, 58, 0.9);
+  color: #EAE0D5;
+}
+
+.project__card:nth-child(odd) a {
+  color: #EAE0D5;
+}
+
+.project__card:nth-child(even) {
+  background-color: rgba(158, 186, 199, 0.9);
+  color: #0A0908;
+}

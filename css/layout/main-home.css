@@ -1,0 +1,7 @@
+.main--home {
+  background-image: url("../../img/body-bg-texture.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
