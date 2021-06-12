@@ -4,6 +4,15 @@
 
 .navigation__list {
   display: flex;
+  position: relative;
+  z-index: 200;
+  align-items: center;
+}
+
+.navigation__item {
+  /* padding-left:5.5em; */
+  white-space: pre-line;
+  margin-left: 2em;
 }
 
 .navigation__link {
@@ -31,8 +40,18 @@
   display: none;
 }
 
-.navigation_cv-download {
-  padding: 2em;
+.navigation__cv-download {
+  color: var(--color-white);
+  background-color: var(--btn-bg);
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 1em;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
 }
 
 @media only screen and (max-width: 910px) {

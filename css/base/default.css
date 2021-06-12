@@ -12,16 +12,6 @@ body {
   font-size: 1rem;
 }
 
-header {
-  background-color: var(--header-bg);
-  display: flex;
-  align-items: center;
-  padding: var(--header-padding);
-  overflow: hidden;
-  justify-content: space-between;
-  min-height: 6em;
-}
-
 @media only screen and (max-width: 414px) {
   header {
     padding: var(--mobile-padding);
@@ -32,17 +22,6 @@ header {
   header {
     max-height: 30vh;
   }
-}
-
-nav ul {
-  position: relative;
-  z-index: 200;
-}
-
-nav ul > li {
-  /* padding-left:5.5em; */
-  white-space: pre-line;
-  margin-left: 1em;
 }
 
 header, footer {
