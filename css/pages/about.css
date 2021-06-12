@@ -40,8 +40,8 @@
   /* margin-top:-4em; */
   /* overflow: hidden; */
   display: flex;
-  position: absolute;
-  top: 37em;
+  position: relative;
+  top: .5em;
   z-index: -1;
   /* z-index: -1; */
   flex-direction: column;
