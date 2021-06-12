@@ -3,7 +3,7 @@
 }
 
 .home__copy--heading {
-  font-family: "Poppins-light";
+  font-family: poppins, sans-serif;
   font-size: 4.5rem;
 }
 
@@ -13,8 +13,12 @@
   }
 }
 
-.home__image {
+.home__img {
   max-width: 30%;
+}
+
+.home__cover-photo {
+  max-width: 50%;
 }
 
 .home__inner {
