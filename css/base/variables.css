@@ -16,6 +16,8 @@
   --header-bg: hsla(199, 17%, 16%, 1);
   --modal:hsla(199, 27%, 18%, .95);
   --link-hover: #E94F37;
+  --btn-bg: #E94F37;
+  --table-bg: #FFF6E8;
   --nav-hover: hsl(31, 33%, 68%);
   --nav-active: hsl(31, 33%, 98%);
   --nav-visited: hsl(31, 33%, 88%);
