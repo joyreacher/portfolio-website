@@ -1,19 +1,22 @@
-.about__headline {
-  font-size: 3.9rem;
-  text-align: center;
-  margin: 1em auto;
-}
-
 .about__copy {
-  padding: var(--main-padding);
+  padding: 0em 5em;
+  font-size: 33px;
+  text-align: center;
+  margin: 2.2em auto;
 }
 
 .about__skills {
-  font-size: .9rem;
-  margin: 0 auto;
-  width: 60vw;
+  font-size: .8rem;
+  margin: 5em auto;
+  width: 50vw;
   text-align: center;
   background-color: var(--table-bg);
+  padding: 1.5em;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
 }
 
 .about__skills th {
@@ -37,6 +40,9 @@
   /* margin-top:-4em; */
   /* overflow: hidden; */
   display: flex;
+  position: absolute;
+  top: 37em;
+  z-index: -1;
   /* z-index: -1; */
   flex-direction: column;
   align-items: center;

@@ -17,7 +17,7 @@
   --modal:hsla(199, 27%, 18%, .95);
   --link-hover: #E94F37;
   --btn-bg: #E94F37;
-  --table-bg: #FFF6E8;
+  --table-bg: hsla(37, 100%, 95%, .75);
   --nav-hover: hsl(31, 33%, 68%);
   --nav-active: hsl(31, 33%, 98%);
   --nav-visited: hsl(31, 33%, 88%);
@@ -114,7 +114,6 @@ img {
 }
 
 .main__home {
-  background-image: url("../../img/body-bg-texture.jpg");
   background-size: contain;
   background-attachment: fixed;
   background-position: top right;
@@ -160,23 +159,24 @@ img {
   background-image: none;
   min-height: 70vh;
   margin-bottom: -1em;
-  padding: 0;
+}
+
+.main__about__wrapper {
+  padding-top: 5em;
 }
 
 .main__works {
-  background-image: url("../../img/body-bg-texture.jpg");
   background-size: contain;
   background-attachment: fixed;
   background-position: top right;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .main__works--wrapper {
   display: grid;
   place-content: center;
   height: 100%;
-  padding: var(--main-padding);
+  padding: 0 5em;
 }
 
 @media only screen and (max-width: 414px) {
@@ -185,11 +185,15 @@ img {
   }
 }
 
+.main__works--container {
+  margin: 4em 0;
+}
+
 .main__contact--wrapper {
   display: grid;
   place-content: center;
   height: 100%;
-  padding: var(--main-padding);
+  padding: 0 5em;
 }
 
 @media only screen and (max-width: 414px) {
@@ -205,6 +209,7 @@ img {
   column-gap: 5em;
   row-gap: 2em;
   align-items: center;
+  padding: var(--main-padding);
 }
 
 @media only screen and (max-width: 768px) {
@@ -449,6 +454,15 @@ img {
   }
 }
 
+.headline {
+  font-family: poppins, sans-serif;
+  font-weight: 400;
+  font-size: 3.9rem;
+  text-align: center;
+  padding: .5em;
+  margin: 1em 0 0 0;
+}
+
 .header {
   background-color: var(--header-bg);
   display: flex;
@@ -523,22 +537,25 @@ img {
   -o-border-radius: 8px;
 }
 
-.about__headline {
-  font-size: 3.9rem;
-  text-align: center;
-  margin: 1em auto;
-}
-
 .about__copy {
-  padding: var(--main-padding);
+  padding: 0em 5em;
+  font-size: 33px;
+  text-align: center;
+  margin: 2.2em auto;
 }
 
 .about__skills {
-  font-size: .9rem;
-  margin: 0 auto;
-  width: 60vw;
+  font-size: .8rem;
+  margin: 5em auto;
+  width: 50vw;
   text-align: center;
   background-color: var(--table-bg);
+  padding: 1.5em;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
 }
 
 .about__skills th {
@@ -562,6 +579,9 @@ img {
   /* margin-top:-4em; */
   /* overflow: hidden; */
   display: flex;
+  position: absolute;
+  top: 37em;
+  z-index: -1;
   /* z-index: -1; */
   flex-direction: column;
   align-items: center;

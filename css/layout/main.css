@@ -1,5 +1,4 @@
 .main__home {
-  background-image: url("../../img/body-bg-texture.jpg");
   background-size: contain;
   background-attachment: fixed;
   background-position: top right;
@@ -45,23 +44,24 @@
   background-image: none;
   min-height: 70vh;
   margin-bottom: -1em;
-  padding: 0;
+}
+
+.main__about__wrapper {
+  padding-top: 5em;
 }
 
 .main__works {
-  background-image: url("../../img/body-bg-texture.jpg");
   background-size: contain;
   background-attachment: fixed;
   background-position: top right;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 .main__works--wrapper {
   display: grid;
   place-content: center;
   height: 100%;
-  padding: var(--main-padding);
+  padding: 0 5em;
 }
 
 @media only screen and (max-width: 414px) {
@@ -70,11 +70,15 @@
   }
 }
 
+.main__works--container {
+  margin: 4em 0;
+}
+
 .main__contact--wrapper {
   display: grid;
   place-content: center;
   height: 100%;
-  padding: var(--main-padding);
+  padding: 0 5em;
 }
 
 @media only screen and (max-width: 414px) {
@@ -90,6 +94,7 @@
   column-gap: 5em;
   row-gap: 2em;
   align-items: center;
+  padding: var(--main-padding);
 }
 
 @media only screen and (max-width: 768px) {
