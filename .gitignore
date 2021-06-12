@@ -12,6 +12,8 @@
 node_modules/
 docs/
 .tmp/
+scss
+css/**/*.map
 
 # OS or Editor folders
 .DS_Store
