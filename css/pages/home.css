@@ -2,10 +2,6 @@
   display: block;
 }
 
-.home__copy {
-  height: 100%;
-}
-
 .home__copy--heading {
   font-family: "Poppins-light";
   font-size: 4.5rem;
@@ -35,4 +31,19 @@
   .home__inner {
     padding: 0em 1.5em;
   }
+}
+
+.home__cta {
+  color: var(--color-white);
+  border: none;
+  background-color: var(--btn-bg);
+  border-radius: 8px;
+  padding: .5em;
+  font-size: 1.2rem;
+  margin-top: 2em;
+  align-self: flex-start;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
 }
