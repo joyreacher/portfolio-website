@@ -1,0 +1,38 @@
+.home__works {
+  display: block;
+}
+
+.home__copy {
+  height: 100%;
+}
+
+.home__copy--heading {
+  font-family: "Poppins-light";
+  font-size: 4.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home__copy--heading {
+    font-size: 3rem;
+  }
+}
+
+.home__image {
+  max-width: 30%;
+}
+
+.home__inner {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 0em;
+}
+
+.home__inner a {
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 415px) {
+  .home__inner {
+    padding: 0em 1.5em;
+  }
+}

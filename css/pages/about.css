@@ -1,39 +1,50 @@
-.main--about{
-    background-image:none;
-    min-height: 70vh;
-    margin-bottom:-1em;
+.about__skills {
+  margin: 0 auto;
+  text-align: center;
 }
 
-#foreground--buildings{
-    min-width: 100%;
-}
-/* @media only screen and (max-width: 854px){ 
-    .main--about{
-        min-height: 20vh;
-    }
-}
-@media only screen and (max-width: 596px){ 
-    .main--about{
-        max-height: 10vh;
-    }
-}
-@media only screen and (max-width: 415px){ 
-    .main--about{
-        max-height: 10vh;
-    }
-} */
-.main--about{
-    padding:0em;
-}
-.illustration{
-    /* margin-top:-4em; */
-    /* overflow: hidden; */
-    display: flex;
-    /* z-index: -1; */
-    flex-direction: column;
-    align-items:center;
+.about__skills th {
+  font-size: 1.5rem;
+  padding: 1em 2em;
 }
 
-#mountains{
-    min-width:100%;
+.about__skills td {
+  padding: 0em 2em;
+}
+
+@media only screen and (max-width: 854px) {
+  .about__skills td {
+    display: none;
+  }
+}
+
+.about__illustration {
+  /* margin-top:-4em; */
+  /* overflow: hidden; */
+  display: flex;
+  /* z-index: -1; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.about__cv {
+  display: flex;
+  justify-content: center;
+}
+
+.about__cv --btn {
+  background-color: var(--cloud-grey);
+  font-family: 'Roboto Condensed', sans-serif;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.2rem;
+  padding: .9em;
+}
+
+#foreground--buildings {
+  min-width: 100%;
+}
+
+#mountains {
+  min-width: 100%;
 }

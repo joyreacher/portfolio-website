@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /*? element styles*/
@@ -66,13 +68,6 @@ footer > div > p {
 }
 
 main {
-  background-image: url("../../img/body-bg-texture.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: top right;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: grid;
   font-weight: 400;
   font-size: 1.2rem;
   line-height: 1.6;
@@ -80,26 +75,6 @@ main {
 
 li {
   list-style: none;
-}
-
-table {
-  margin: 0 auto;
-  text-align: center;
-}
-
-th {
-  font-size: 1.5rem;
-  padding: 1em 2em;
-}
-
-td {
-  padding: 0em 2em;
-}
-
-@media only screen and (max-width: 854px) {
-  td {
-    display: none;
-  }
 }
 
 /*? base styles for links */

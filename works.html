@@ -8,51 +8,53 @@
     <link rel="icon" href='./img/favicon.ico' >
     <link rel="stylesheet" href="https://use.typekit.net/tpr1nqj.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.main.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
     <!-- <link rel="stylesheet" href="./css/style.main.css" /> -->
     <!-- <link rel="stylesheet" href="./css/style.production.css" /> -->
 </head>
 <body>
-    <header>
-        <a class="logo__container" href="https://joyreacher.github.io/portfolio-website">
-            <h1 class="logo">Brian Thomas</h1>
-            <!-- <img class="logo"  src="./img/logo.jpg" alt="Logo text spelling Brian"> -->
-        </a>
+  <header>
+    <a class="logo__container" href="/">
+        <!-- <h1 class="logo">Brian Thomas</h1> -->
+        <img class="logo"  src="./img/icon/Logo--USE ON DARK BACKGROUND/Logo--@1x.png" alt="Logo for Brian Thomas">
         
+    </a>
+    
+    
+    <div class="navigation">
+    
+        <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
         
-        <div class="navigation">
+        <label for="nav-toggle" class="navigation__btn">
+            <span class="navigation__btn--middle">&nbsp;</span>
+        </label>
         
-            <input type="checkbox" class="navigation__checkbox" id="nav-toggle">
-            
-            <label for="nav-toggle" class="navigation__btn">
-                <span class="navigation__btn--middle">&nbsp;</span>
-            </label>
-            
-            <div class="navigation-bg">&nbsp;</div>
+        <div class="navigation-bg">&nbsp;</div>
 
-            <nav class="navigation__container">
-                <ul role="menubar" class="navigation__list">
-                    <li role="presentation" class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website">Home</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website/works.html">Works</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website/about.html">About me</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link" role="menuitem" href="https://joyreacher.github.io/portfolio-website/contact.html">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
-    </header>
-    <main>
-        <section class="content__wrapper">
+        <nav class="navigation__container">
+            <ul role="menubar" class="navigation__list">
+                <li role="presentation" class="navigation__item">
+                    <button class="navigation__cv-download">Download CV</button>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" role="menuitem" href="/works.html">Works</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" role="menuitem" href="/about.html">About me</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" role="menuitem" href="/contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    
+  </header>
+    <main class="main__works">
+        <section class="main__works--wrapper">
             <!-- content wrapper -->
-            <div class="content__container--works">
+            <div class="main__works--container">
                 <!-- conteent sections -->
                 
                 <div class="project__container">

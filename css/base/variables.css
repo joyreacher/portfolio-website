@@ -1,0 +1,27 @@
+* {
+  --header-padding: 2em 6em;
+  --main-padding: 5em 5em;
+  --mobile-padding: 2em 2em;
+  --shadow-1: 3px 3px 3em hsla(31, 33%, 68%, .7), -.5em 1.5em 1.5em hsla(30, 11%, 4%, .134);
+  --shadow-2: -6px 7px 29px 1px rgba(0,0,0,0.20);
+}
+
+:root {
+  --color-dark-1:#0A0908;
+  --color-dark-2:#22333B;
+  --color-dark-3:#0b0a09;
+  --color-white: #EAE0D5;
+  --color-white--darker: hsl(31, 13%, 68%);
+  --body-bg:hsla(31,33%, 88%, .4);
+  --header-bg: hsla(199, 17%, 16%, 1);
+  --modal:hsla(199, 27%, 18%, .95);
+  --link-hover: #E94F37;
+  --nav-hover: hsl(31, 33%, 68%);
+  --nav-active: hsl(31, 33%, 98%);
+  --nav-visited: hsl(31, 33%, 88%);
+  --logo-hover: hsl(31, 33%, 93%);
+  --logo-active: hsl(31, 33%, 100%);
+  --contact-submit-active: rgba(34, 51, 59, .3);
+  --contact-submit-hover: rgba(34, 51, 59, .3);
+  --cloud-grey: #BEC1BF;
+}
