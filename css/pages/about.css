@@ -1,15 +1,30 @@
-.about__skills {
-  margin: 0 auto;
+.about__headline {
+  font-size: 3.9rem;
   text-align: center;
+  margin: 1em auto;
+}
+
+.about__copy {
+  padding: var(--main-padding);
+}
+
+.about__skills {
+  font-size: .9rem;
+  margin: 0 auto;
+  width: 60vw;
+  text-align: center;
+  background-color: var(--table-bg);
 }
 
 .about__skills th {
   font-size: 1.5rem;
   padding: 1em 2em;
+  border-bottom: 1px solid var(--color-dark-1);
 }
 
 .about__skills td {
   padding: 0em 2em;
+  border-bottom: 1px solid var(--color-dark-1);
 }
 
 @media only screen and (max-width: 854px) {
