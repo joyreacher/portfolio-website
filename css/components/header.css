@@ -6,6 +6,8 @@
   overflow: hidden;
   justify-content: space-around;
   min-height: 6em;
+  position: fixed;
+  width: 100%;
 }
 
 .header__logo {

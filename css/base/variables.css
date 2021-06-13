@@ -1,6 +1,6 @@
 * {
-  --header-padding: 2em 6em;
-  --main-padding: 5em 5em;
+  --header-padding: 1em 5em;
+  --main-padding: 5em 1em;
   --mobile-padding: 2em 2em;
   --shadow-1: 3px 3px 3em hsla(31, 33%, 68%, .7), -.5em 1.5em 1.5em hsla(30, 11%, 4%, .134);
   --shadow-2: -6px 7px 29px 1px rgba(0,0,0,0.20);
