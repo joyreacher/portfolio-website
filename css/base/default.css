@@ -8,7 +8,7 @@
 body {
   background-color: var(--body-bg);
   color: var(--color-dark-1);
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: din-1451-lt-pro-engschrift, sans-serif;
   font-size: 1rem;
 }
 
@@ -48,7 +48,7 @@ footer > div > p {
 
 main {
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.6;
 }
 
@@ -56,12 +56,14 @@ li {
   list-style: none;
 }
 
-/*? base styles for links */
 a {
-  /* keep the contact cta bright */
   color: var(--color-dark-1);
   text-decoration: none;
   transition: color .3s ease;
+  -webkit-transition: color .3s ease;
+  -moz-transition: color .3s ease;
+  -ms-transition: color .3s ease;
+  -o-transition: color .3s ease;
 }
 
 /*? text styles */
