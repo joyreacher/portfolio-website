@@ -18,6 +18,7 @@
 .navigation__link {
   transition: all 0.3s ease-in;
   color: #eae0d5;
+  font-size: 1.4rem;
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -ms-transition: all 0.3s ease-in;
@@ -46,7 +47,6 @@
   font-size: 1.1rem;
   border: none;
   border-radius: 6px;
-  font-family: 'Roboto Condensed', sans-serif;
   padding: 1em;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
