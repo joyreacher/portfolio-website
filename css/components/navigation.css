@@ -61,7 +61,7 @@
     color: var(--color-white);
     height: 6rem;
     width: 6rem;
-    top: 1.25em;
+    top: .25em;
     right: 4rem;
     z-index: 600;
   }
