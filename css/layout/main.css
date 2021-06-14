@@ -58,9 +58,10 @@
 
 .main__works--wrapper {
   display: grid;
+  grid-template-columns: .5fr 1fr;
   place-content: center;
   height: 100%;
-  padding: 0 5em;
+  padding: var(--main-padding);
 }
 
 @media only screen and (max-width: 414px) {
@@ -75,9 +76,10 @@
 
 .main__contact--wrapper {
   display: grid;
+  grid-template-columns: .5fr 1fr;
   place-content: center;
   height: 100%;
-  padding: 0 5em;
+  padding: var(--main-padding);
 }
 
 @media only screen and (max-width: 414px) {
