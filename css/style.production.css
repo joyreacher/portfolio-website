@@ -358,7 +358,7 @@ img {
   -ms-grid-columns: 0.5fr 1fr;
   grid-template-columns: 0.5fr 1fr;
   place-content: center;
-  min-height: 80vh;
+  min-height: 90vh;
   padding: var(--main-padding);
 }
 
