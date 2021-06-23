@@ -70,6 +70,7 @@ table {
   --header-bg: hsla(199, 17%, 16%, 1);
   --modal:hsla(199, 27%, 18%, .95);
   --link-hover: #E94F37;
+  --error: hsl(8, 80%, 36%);
   --btn-bg: #E94F37;
   --table-bg: hsla(37, 100%, 95%, .75);
   --nav-hover: hsl(31, 33%, 68%);
@@ -765,6 +766,41 @@ img {
   align-items: center;
 }
 
+.contact__info {
+  padding: 1em 0;
+}
+
+.contact__info--phone, .contact__info--email {
+  color: var(--link-hover);
+}
+
+.contact__form {
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__form--button {
+  text-align: center;
+  font-family: poppins;
+  margin: 1em 0 0 0;
+  font-size: 1.2rem;
+  width: 50%;
+  background-color: var(--link-hover);
+  color: var(--color-white);
+  border: none;
+  border-radius: 6px;
+  padding: .4em 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.contact__form label {
+  margin-top: 2em;
+}
+
 /*
 * Prefixed by https://autoprefixer.github.io
 * PostCSS: v7.0.29,
@@ -1063,4 +1099,8 @@ img {
   .mt-3 {
     margin-top: 4em;
   }
+}
+
+.error-message {
+  color: var(--error);
 }
