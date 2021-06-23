@@ -16,6 +16,7 @@
   --header-bg: hsla(199, 17%, 16%, 1);
   --modal:hsla(199, 27%, 18%, .95);
   --link-hover: #E94F37;
+  --error: hsl(8, 80%, 36%);
   --btn-bg: #E94F37;
   --table-bg: hsla(37, 100%, 95%, .75);
   --nav-hover: hsl(31, 33%, 68%);
